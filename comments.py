@@ -7,7 +7,7 @@ print(ginfo['id'])
 
 listposts=[]
 
-posts = get_posts(post_urls=["ใสโพสต์ที่ต้องการดึง"], credentials=('email_facebook','password_facebook'), options={"comments":True})
+posts = get_posts(post_urls=["ใสโพสต์ที่ต้องการดึง"], credentials=('ใสรหัสผ่าน user_email','ใสรหัสผ่าน password'), options={"comments":True})
 
 for post in posts:
     with open('fb.json', 'a', encoding='utf-8') as f:
